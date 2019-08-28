@@ -1,4 +1,4 @@
-# auto-update for linux
+# auto create aria2 config file for linux
 This tool will download the best trackers list, and auto update the config file of aria2 "~/.aria2/aria2.conf".
 
 The default url is "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt", you can change it by argument.
