@@ -12,6 +12,9 @@ The default url is "https://raw.githubusercontent.com/ngosang/trackerslist/maste
 
 notice: You must install golang compiler first. 你必须先安装go语言编译器。
 
+#### download binary(下载编译版本)：
+[https://github.com/rocket049/aria2-trackers/releases/download/v0.1.0/aria2-trackers.gz](https://github.com/rocket049/aria2-trackers/releases/download/v0.1.0/aria2-trackers.gz)
+
 #### Usage（用法）:
 ```
     //unzip
