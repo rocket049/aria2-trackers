@@ -14,8 +14,12 @@ notice: You must install golang compiler first. 你必须先安装go语言编译
 
 #### Usage（用法）:
 ```
+    //unzip
+    gunzip aria2-trackers.gz
+
     //update default best list，下载默认最佳列表。
-    auto-update
+    ./aria2-trackers
+
     //update special list，下载指定列表
-    auto-update [url of list]
+   ./aria2-trackers [url of list]
 ```
