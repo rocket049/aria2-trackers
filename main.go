@@ -43,6 +43,8 @@ func writeConf(data []string) error {
 	if err != nil {
 		return err
 	}
+	dir1 := filepath.Join(home, ".aria2")
+	os.Mkdir(dir1, os.ModePerm)
 	confPath := filepath.Join(home, ".aria2", "aria2.conf")
 	fp, err := os.Create(confPath)
 	if err != nil {
