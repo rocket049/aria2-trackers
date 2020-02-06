@@ -9,7 +9,7 @@ import (
 	"text/template"
 )
 
-var listUrl = "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt"
+var listUrl = "https://ngosang.github.io/trackerslist/trackers_best.txt"
 
 var tmpl = `bt-tracker={{range $k, $v := .}}{{if eq $k 0}}{{$v}}{{else}},{{$v}}{{end}}{{end}}
 enable-dht=true
