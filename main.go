@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"flag"
+	"fmt"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -63,6 +64,8 @@ func main() {
 	flag.Parse()
 	if len(flag.Arg(0)) > 0 {
 		listUrl = flag.Arg(0)
+	} else {
+		fmt.Print("Usage:\n\t./aria2-trackers\nOr:\n\t./aria2-trackers [url of list]\n")
 	}
 	list1, err := downloadList()
 	if err != nil {
